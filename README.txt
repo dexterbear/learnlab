@@ -1,2 +1,0 @@
-# learnlab
-Lilypad sensor
