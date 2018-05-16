@@ -22,7 +22,7 @@ void loop() {
   digitalWrite(led_3,HIGH);
   delay(100);
   digitalWrite(led_3,LOW);
-  delay(100);
+  delay(200);
 }
   
 
