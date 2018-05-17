@@ -6,8 +6,6 @@ void setup()
   Serial.begin(9600);//시리얼 모니터링 설정 On
  
   pinMode(sensor,INPUT);
-  pinMode(A1,OUTPUT);
-  digitalWrite(A1,HIGH); //항상 값을 받기위한 설정
   pinMode(3,OUTPUT);
 }
 
