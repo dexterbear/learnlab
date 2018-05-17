@@ -10,8 +10,7 @@ void setup() {
   pinMode(temper_sensor,INPUT);
 
   pinMode(3,OUTPUT);
-  pinMode(A5,OUTPUT);   //온도센서의 (+)극을 아날로그핀에 
-  digitalWrite(A5,HIGH);
+
 
   
 }
