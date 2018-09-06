@@ -1,17 +1,16 @@
-int led_1 = 5;
+
 
 
 void setup() {
-  Serial.begin(9600);
   
-  pinMode(led_1,OUTPUT);
+  pinMode(7,OUTPUT);
 
 }
 
 void loop() {
-  digitalWrite(led_1,HIGH);
+  digitalWrite(7,HIGH);
   delay(100);
-  digitalWrite(led_1,LOW);
+  digitalWrite(7,LOW);
   delay(100);
 }
   
